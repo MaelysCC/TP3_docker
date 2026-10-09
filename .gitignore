@@ -1,0 +1,11 @@
+# SSH private keys
+id_rsa
+*.pem
+
+# Ansible temporary files
+*.retry
+
+# Environment variables and secrets
+.env
+.env.*
+!*.env.example
